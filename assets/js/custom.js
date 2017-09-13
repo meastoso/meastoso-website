@@ -16,7 +16,7 @@
 		 * Background image
 		/* ---------------------------------------------- */
 
-		$.backstretch(['assets/images/bg5.jpg']);
+		$.backstretch(['assets/images/bahamut-bkg.jpg']);
 
 		/* ---------------------------------------------- /*
 		 * Animation scroll
@@ -65,10 +65,10 @@
 				bg_width: 0.6,
 				circle_bg_color: '#ffffff',
 				time: {
-						Days: {color: '#19B5FE'}
-				,	   Hours: {color: '#19B5FE'}
-				,	 Minutes: {color: '#19B5FE'}
-				,	 Seconds: {color: '#19B5FE'}
+						Days: {color: '#197c7f'}
+				,	   Hours: {color: '#197c7f'}
+				,	 Minutes: {color: '#197c7f'}
+				,	 Seconds: {color: '#197c7f'}
 				}
 			});
 			countdown.on('webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd', function() {

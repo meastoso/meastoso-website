@@ -25,7 +25,7 @@ img {
 }
 
 a {
-	color: #19B5FE;
+	color: #197c7f;
 }
 
 a:hover {
@@ -87,7 +87,7 @@ a,
 
 .btn-theme {
 	background: transparent;
-	border: 2px solid #19B5FE;
+	border: 2px solid #197c7f;
 }
 
 .btn-theme i {
@@ -98,8 +98,8 @@ a,
 .btn-theme:focus,
 .btn-theme:active,
 .btn-theme.active {
-	background: #19B5FE;
-	border: 2px solid #19B5FE;
+	background: #197c7f;
+	border: 2px solid #197c7f;
 	outline: inherit !important;
 	color: #FFF;
 }
@@ -223,7 +223,7 @@ h4 { font-size: 18px; }
 	width: 62px;
 	height: 62px;
 	margin: 0 auto 30px;
-	color: #19B5FE;
+	color: #197c7f;
 	font-size: 28px;
 	line-height: 58px;
 }
