@@ -1,0 +1,358 @@
+/**
+ * Name: Cortes - Coming Soon Template (wrapbootstrap)
+ * Version: 1.0
+ * Author: web-master72
+ *
+ *
+ *
+/* ---------------------------------------------- /*
+ * General styles
+/* ---------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic);
+
+body {
+	background: #FFF;
+	font: 300 16px/1.8 'Lato', sans-serif;
+	color: #888;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #19B5FE;
+}
+
+a:hover {
+	color: #1C92C9;
+}
+
+/* Transition elsements
+------------------------------------------------- */
+
+a,
+.btn,
+.form-control {
+	-webkit-transition: all 0.125s ease-in-out 0s;
+	   -moz-transition: all 0.125s ease-in-out 0s;
+		-ms-transition: all 0.125s ease-in-out 0s;
+		 -o-transition: all 0.125s ease-in-out 0s;
+			transition: all 0.125s ease-in-out 0s;
+}
+
+/* Reset box-shadow
+------------------------------------------------- */
+
+.btn,
+.form-control,
+.form-control:hover,
+.form-control:focus {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+
+/* Border-radius
+------------------------------------------------- */
+
+.btn,
+.form-control,
+.features-item-icon {
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+		 -o-border-radius: 6px;
+			border-radius: 6px;
+}
+
+/* Inputs styles
+------------------------------------------------- */
+
+.form-control {
+	background: #FFF;
+	border: 0 !important;
+}
+
+/* Custom button style
+------------------------------------------------- */
+
+.btn {
+	color: #FFF;
+	padding: 15px 25px;
+	margin: 5px;
+}
+
+.btn-theme {
+	background: transparent;
+	border: 2px solid #19B5FE;
+}
+
+.btn-theme i {
+	margin-right: 6px;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active {
+	background: #19B5FE;
+	border: 2px solid #19B5FE;
+	outline: inherit !important;
+	color: #FFF;
+}
+
+/* Typography
+------------------------------------------------- */
+
+h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	color: inherit;
+	margin: 0 0 15px;
+}
+
+h1 { font-size: 46px; margin: 0 0 25px; }
+
+h2 { font-size: 42px; color: #242424; }
+
+h3 { font-size: 20px; color: #242424; }
+
+h4 { font-size: 18px; }
+
+.btn,
+.form-control {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+/* ---------------------------------------------- /*
+ * General rules
+/* ---------------------------------------------- */
+
+.container {
+	max-width: 920px;
+}
+
+.subtitle {
+	margin: 0 0 30px;
+}
+
+.subtitle p {
+	font-size: 18px;
+}
+
+.header-deveider {
+	background: #d9d9d9;
+	width: 60px;
+	height: 3px;
+	margin: 0 auto 15px;
+}
+
+#particles-js {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+/* Intro section
+------------------------------------------------- */
+
+.intro, .footer {
+	background-color: rgba(0, 0, 0, .5) !important;
+	background-image: url("../images/bg.png") !important;
+	padding: 50px 0;
+	z-index: auto !important;
+	color: #FFF;
+	position: relative;
+}
+
+.intro > .container {
+	position: relative;
+	z-index: 2;
+}
+
+.i_header, .i_cicle, .i_footer {
+	margin: 25px 0;
+}
+
+.i_header {
+	font-size: 20px;
+	margin: 0 0 25px;
+}
+
+.i_cicle {
+	max-width: 780px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin: 0 0 25px;
+}
+
+/* About
+------------------------------------------------- */
+
+.about {
+	background: #F5F5F5;
+	padding: 90px 0;
+	font-size: 26px;
+}
+
+/* Features
+------------------------------------------------- */
+
+.features {
+	background: #FFF;
+	padding: 90px 0;
+}
+
+.features-item {
+	padding: 15px 0 30px;
+}
+
+.features-item-icon {
+	border: 2px solid #d9d9d9;
+	width: 62px;
+	height: 62px;
+	margin: 0 auto 30px;
+	color: #19B5FE;
+	font-size: 28px;
+	line-height: 58px;
+}
+
+.features-item-icon {
+	-webkit-transform: rotate(-45deg);
+	   -moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		 -o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+}
+
+.features-item-icon i {
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		 -o-transform: rotate(45deg);
+			transform: rotate(45deg);
+}
+
+/* Footer
+------------------------------------------------- */
+
+.footer, .footer h2, .footer h3 {
+	color: #FFF;
+}
+
+.subscription-form .input-box {
+	padding: 6px 20px;
+	height: 55px;
+	width: 350px;
+}
+
+.subscription-message {
+	display: none;
+}
+
+/* Socials links
+------------------------------------------------- */
+
+#share {
+	margin: 90px 0 0;
+}
+
+.socials-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.socials-links li {
+	display: inline-block;
+	margin: 0 7px;
+	font-size: 28px;
+}
+
+/* ---------------------------------------------- /*
+ * Time circles
+/* ---------------------------------------------- */
+
+.time_circles {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.time_circles > div {
+	position: absolute;
+	text-align: center;
+}
+
+.time_circles > div > h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.time_circles > div > span {
+	display: block;
+	width: 100%;
+	margin-top: 0.4em;
+	font-weight: 700;
+	font-size: 300%;
+	font-family: 'Raleway', serif;
+}
+
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#preloader {
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#status {
+	background-image: url(../images/728.GIF);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+}
+
+/* ---------------------------------------------- /*
+ * Media
+/* ---------------------------------------------- */
+
+@media (max-width: 767px) {
+
+	.features {
+		padding: 90 0 60px;
+	}
+
+	.features-item {
+		margin: 0 auto 30px;
+	}
+
+	.subscription-form .input-box{
+		margin: auto;
+		width: 80%;
+		margin-bottom: 10px;
+	}
+
+}
